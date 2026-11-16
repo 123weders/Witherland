@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>О сервере — WitherLand</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="buttons.css">
+<link rel="stylesheet" href="info.css">
+<script src="head.js" defer></script>
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+<div class="wrap">
+<h1 class="page-title">О сервере</h1>
+<p class="lead">WitherLand — Minecraft сервер для тех, кто любит выживание в компании друзей.</p>
+<div class="info-grid">
+  <div class="card reveal"><h3>Особенности</h3><ul><li>Несколько режимов SMP</li><li>Приват территорий</li><li>Экономика и магазины</li><li>Регулярные ивенты</li></ul></div>
+  <div class="card reveal"><h3>Данные</h3><ul><li>IP: <span class="server-ip"></span></li><li>Версии клиента: <span class="server-version"></span></li><li>Ядро: <span class="server-core"></span></li><li>Версия сервера: <span class="server-sversion"></span></li></ul></div>
+  <div class="card reveal"><h3>Связь</h3><ul><li><a class="discord-link" href="#">Discord сервера</a></li><li>Администрация в игре и Discord</li></ul></div>
+</div>
+<h2 class="title" style="margin-top:20px">Режимы сервера</h2>
+<div class="modes"></div>
+<div class="card how-to reveal" style="margin-top:40px">
+  <h2>Как зайти</h2>
+  <ol>
+    <li>Запусти Minecraft любой версии: <span class="server-version"></span></li>
+    <li>Нажми «Сетевая игра» → «Добавить сервер»</li>
+    <li>Введи IP: <code class="server-ip"></code></li>
+    <li>Подключись и прочитай <a href="rules.html">правила</a></li>
+  </ol>
+  <button class="btn" onclick="copyIP()">Скопировать IP</button>
+</div>
+</div>
+</main>
+<footer id="site-footer"></footer>
+</body>
+</html>

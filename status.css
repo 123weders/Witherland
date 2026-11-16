@@ -1,0 +1,12 @@
+.page-title{font-size:2.2rem;margin-bottom:20px}
+.status-card{text-align:center;border-width:2px}
+.status-card.online{border-color:var(--ok)}.status-card.offline{border-color:var(--bad)}
+.status-dot{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--muted);margin-right:8px}
+.online .status-dot{background:var(--ok);box-shadow:0 0 12px var(--ok)}.offline .status-dot{background:var(--bad);box-shadow:0 0 12px var(--bad)}
+#st-state{font-size:1.8rem;font-weight:800}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:22px 0}
+.stat{background:var(--bg);border-radius:12px;padding:14px}.stat span{display:block;color:var(--muted);font-size:.85rem}.stat b{font-size:1.25rem}
+#st-list{list-style:none;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:12px 0 22px}
+#st-list li{background:var(--bg);border:1px solid var(--line);padding:5px 14px;border-radius:20px;font-size:.9rem}
+#st-list li.empty{color:var(--muted);border:0}
+.status-modes{margin-top:30px}

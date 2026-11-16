@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Главная — WitherLand</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="buttons.css">
+<script src="head.js" defer></script>
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+<section class="hero">
+  <div class="cube"></div><div class="cube"></div><div class="cube"></div><div class="cube"></div>
+  <div class="pill"><i></i> Онлайн: <span class="online-count">...</span></div>
+  <h1>WITHERLAND</h1>
+  <p>Minecraft сервер с несколькими режимами выживания. Версии <span class="server-version"></span>, ядро <span class="server-core"></span>.</p>
+  <div class="actions">
+    <button class="btn btn-big" onclick="copyIP()"><span class="server-ip"></span></button>
+    <a class="btn btn-outline btn-big" href="info.html">Как зайти</a>
+  </div>
+</section>
+<div class="stats-strip">
+  <div class="stat-box reveal"><b class="online-count">...</b><span>Игроков онлайн</span></div>
+  <div class="stat-box reveal"><b class="modes-count">0</b><span>Режимов запущено</span></div>
+  <div class="stat-box reveal"><b class="server-sversion"></b><span>Версия сервера</span></div>
+  <div class="stat-box reveal"><b class="server-core"></b><span>Ядро</span></div>
+</div>
+<div class="wrap">
+  <h2 class="title">Наши режимы</h2>
+  <p class="subtitle">Выбери свой мир и начни играть</p>
+  <div class="modes"></div>
+  <h2 class="title">Почему WitherLand</h2>
+  <p class="subtitle">Всё, что нужно для комфортной игры</p>
+  <div class="features">
+    <div class="card reveal"><h3>⚔ Выживание</h3><p>Честная игра, сильная экономика и интересные ивенты.</p></div>
+    <div class="card reveal"><h3>🚀 Стабильность</h3><p>Современное ядро Purpur и мощное железо без лагов.</p></div>
+    <div class="card reveal"><h3>🔓 Любая версия</h3><p>Заходи с клиента от <span class="server-version"></span>.</p></div>
+    <div class="card reveal"><h3>👥 Сообщество</h3><p>Дружный чат, Discord и активная администрация.</p></div>
+  </div>
+</div>
+</main>
+<footer id="site-footer"></footer>
+</body>
+</html>

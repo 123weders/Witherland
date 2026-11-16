@@ -1,0 +1,7 @@
+.page-title{font-size:2.2rem;margin-bottom:8px}.lead{color:var(--muted)}
+.rules-list{list-style:none;counter-reset:r;display:grid;gap:12px;margin-top:26px}
+.rules-list li{counter-increment:r;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px 16px 70px;position:relative;transition:.2s}
+.rules-list li:hover{border-color:var(--accent);transform:translateX(4px)}
+.rules-list li::before{content:counter(r);position:absolute;left:16px;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--cyan));display:grid;place-items:center;font-weight:800}
+.rules-list b{color:var(--accent2)}
+.warn{margin-top:24px;border-color:var(--bad);color:var(--muted)}
